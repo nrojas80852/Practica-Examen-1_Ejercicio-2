@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pagina A.Master.cs" Inherits="Practica_Examen_1_Ejercicio_2.Pagina_a" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Practica Primer Parcial</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="MostrarPagina A.aspx">Pagina Maestra</a></li>
+                    <li><a href="MostrarDatos.aspx">Mostrar</a></li>
+                </ul>
+ 
+            </div>
+ 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div id="footer">
+                <span>20 de Octubre del 2021</span>
+                <span>Práctica para primer parcial</span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
